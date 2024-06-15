@@ -1,0 +1,115 @@
+/* frontend/src/pages/Home.css */
+
+.home-container {
+    font-family: Arial, sans-serif;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: url('../assets/builder-icon.png') no-repeat center center fixed; /* Use the builder icon */
+    background-size: cover;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .nav {
+    margin-bottom: 20px;
+  }
+  
+  .nav-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .nav-list li {
+    display: inline;
+  }
+  
+  .nav-list a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .nav-list a:hover {
+    text-decoration: underline;
+  }
+  
+  .main {
+    max-width: 800px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .intro-section, .features-section, .cta-section {
+    margin-bottom: 20px;
+  }
+  
+  .features-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .features-section li {
+    margin: 10px 0;
+  }
+  
+  .features-section i {
+    margin-right: 10px;
+    color: #007bff;
+  }
+  
+  .cta-section a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .cta-section a:hover {
+    text-decoration: underline;
+  }
+  
+  .cards-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    width: 200px;
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card i {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #007bff;
+  }
+  
+  .card h3 {
+    margin: 10px 0;
+  }
+  
+  .footer {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
